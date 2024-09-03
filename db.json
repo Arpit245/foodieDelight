@@ -1,0 +1,46 @@
+{
+  "restaurantDetail": [
+    {
+      "id": "1",
+      "name": "The Gourmet Bistro",
+      "description": "A cozy spot offering gourmet dishes with a modern twist.",
+      "location": "123 Culinary Ave, Foodtown, FT 45678"
+    },
+    {
+      "id": "2",
+      "name": "Seafood Haven",
+      "description": "Fresh seafood served daily with a variety of unique recipes.",
+      "location": "456 Oceanview St, Seaside, SD 12345"
+    },
+    {
+      "id": "3",
+      "name": "Veggie Delight",
+      "description": "A vegetarian restaurant offering fresh and organic meals.",
+      "location": "789 Greenway Dr, Plantville, PV 67890"
+    },
+    {
+      "id": "4",
+      "name": "Steakhouse Prime",
+      "description": "Premium steaks and grilled meats with a selection of fine wines.",
+      "location": "101 Grill Rd, Meatville, MV 23456"
+    },
+    {
+      "id": "5",
+      "name": "Pasta Paradise",
+      "description": "Delicious pasta dishes and Italian classics in a charming setting.",
+      "location": "202 Noodle Ln, Italytown, IT 34567"
+    },
+    {
+      "id": "6",
+      "name": "Sher E Punjab",
+      "description": "Authentic Indian cuisine with a focus on traditional flavors.",
+      "location": "AE121, Punjabi Town"
+    },
+    {
+      "id": "5992",
+      "name": "Arpit ",
+      "description": "ajaja",
+      "location": "ae121"
+    }
+  ]
+}

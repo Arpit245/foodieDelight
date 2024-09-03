@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Admin from './components/pages/Admin';
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import Navbar from './components/layout/Navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NotFound from './components/pages/NotFound';
+import AddRestaurant from './components/pages/AddRestaurant';
+import EditRestaurant from './components/pages/EditRestaurant';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Admin />} />
+          <Route path="/add" element={<AddRestaurant />} />
+          <Route path="/restaurants/edit/:id" element={<EditRestaurant />} /> {/* Use :id to match dynamic segments */}
+          <Route path="*" element={<NotFound />} /> {/* Catch-all route for 404 - Not Found */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
