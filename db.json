@@ -32,9 +32,15 @@
     },
     {
       "id": "4de0",
-      "name": "surya",
+      "name": "surya hotel",
       "description": "new ",
       "location": "anuppur"
+    },
+    {
+      "id": "3a67",
+      "name": "k square",
+      "description": "italian",
+      "location": "shahdol"
     }
   ]
 }
