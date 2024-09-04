@@ -38,7 +38,12 @@ const AddRestaurant = () => {
   const onSubmit = async e => {
     e.preventDefault();
     if (validateForm()) {
+      try {
       await axios.post("http://localhost:3003/restaurantDetail", newRestaurant); 
+      }
+      catch(error) {
+        console.log('Error',error)
+      }
       navigate("/");
     }
   };

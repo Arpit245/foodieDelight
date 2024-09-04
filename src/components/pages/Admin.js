@@ -16,8 +16,13 @@ const Admin = () => {
   }, [newRestaurant]);
 
   const loadRestaurant = async () => {
+    try {
     const result = await axios.get("http://localhost:3003/restaurantDetail");
     setNewRestaurant(result.data.reverse());
+    }
+    catch(error) {
+      console.log(error)
+    }
   };
 
   const deleteRestaurant = async id => {
