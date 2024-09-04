@@ -13,7 +13,7 @@ const Admin = () => {
 
   useEffect(() => {
     loadRestaurant();
-  }, []);
+  }, [newRestaurant]);
 
   const loadRestaurant = async () => {
     const result = await axios.get("http://localhost:3003/restaurantDetail");

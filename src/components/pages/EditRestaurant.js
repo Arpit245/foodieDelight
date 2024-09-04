@@ -15,7 +15,7 @@ const EditRestaurant = () => {
 
   useEffect(() => {
     loadRestaurant();
-  }, [id]); // Add id to dependency array
+  }, [id]); 
 
   const onInputChange = e => {
     setRestaurant({ ...restaurant, [e.target.name]: e.target.value });
