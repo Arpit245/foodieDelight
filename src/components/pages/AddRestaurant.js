@@ -18,7 +18,7 @@ const AddRestaurant = () => {
 
   const onSubmit = async e => {
     e.preventDefault();
-    await axios.post("http://localhost:3003/restaurantDetail", newRestaurant); // Use correct endpoint
+    await axios.post("http://localhost:3003/restaurantDetail", newRestaurant); 
     navigate("/");
   };
 

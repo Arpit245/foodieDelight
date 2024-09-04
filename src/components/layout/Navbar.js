@@ -11,7 +11,7 @@ const Navbar = () => {
           <NavLink className="btn btn-outline-light me-2" exact to="/">
             Admin Panel
           </NavLink>
-          <Link className="btn btn-outline-light" exact to="/add">Add User</Link>
+          <Link className="btn btn-outline-light" exact to="/add">Add New Restaurant</Link>
         </div>
       </div>
     </nav>

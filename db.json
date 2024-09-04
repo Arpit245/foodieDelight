@@ -1,12 +1,6 @@
 {
   "restaurantDetail": [
     {
-      "id": "1",
-      "name": "The Gourmet Bistro",
-      "description": "A cozy spot offering gourmet dishes with a modern twist.",
-      "location": "123 Culinary Ave, Foodtown, FT 45678"
-    },
-    {
       "id": "2",
       "name": "Seafood Haven",
       "description": "Fresh seafood served daily with a variety of unique recipes.",
@@ -26,21 +20,21 @@
     },
     {
       "id": "5",
-      "name": "Pasta Paradise",
+      "name": "Pasta Paradise12",
       "description": "Delicious pasta dishes and Italian classics in a charming setting.",
       "location": "202 Noodle Ln, Italytown, IT 34567"
     },
     {
-      "id": "6",
-      "name": "Sher E Punjab",
-      "description": "Authentic Indian cuisine with a focus on traditional flavors.",
-      "location": "AE121, Punjabi Town"
+      "id": "6073",
+      "name": "kundan kings",
+      "description": "indian cusine, chinese",
+      "location": "shahdol"
     },
     {
-      "id": "5992",
-      "name": "Arpit ",
-      "description": "ajaja",
-      "location": "ae121"
+      "id": "ae86",
+      "name": "baghel dhaba",
+      "description": "indian cusine",
+      "location": "shahdol"
     }
   ]
 }

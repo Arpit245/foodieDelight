@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 
 const EditRestaurant = () => {
-  let navigate = useNavigate(); // useNavigate instead of useHistory
+  let navigate = useNavigate(); 
   const { id } = useParams(); // Get restaurant ID from URL
   const [restaurant, setRestaurant] = useState({
     name: "",
@@ -24,7 +24,7 @@ const EditRestaurant = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     await axios.put(`http://localhost:3003/restaurantDetail/${id}`, restaurant);
-    navigate("/"); // navigate instead of history.push
+    navigate("/"); // navigate to home when request is successfull
   };
 
   const loadRestaurant = async () => {
