@@ -3,11 +3,12 @@ FoodieDelight is a restaurant management application built with React v18, Jest,
 
 ## **Features**
 1. **Add, Update, Delete Restaurants:** Easily manage restaurant entries through a user-friendly interface.
-2. **Search Functionality:** Quickly search for restaurants by name.
-3. **Routing:** React Router DOM is used for navigation between different pages.
-4. **Styling:** The app is styled using Bootstrap and Material-UI to provide a clean and responsive UI.
-5. **Mock API:** JSON Server is used to mock API data, making it easy to test and develop without a backend.
-6. **Axios Integration:** Axios is used for making HTTP requests to fetch and manipulate data.
+2. **Unit Test Cases:** Unit test cases are covered using JEST nad React-testing Library.
+3. **Search Functionality:** Quickly search for restaurants by name.
+4. **Routing:** React Router DOM is used for navigation between different pages.
+5. **Styling:** The app is styled using Bootstrap and Material-UI to provide a clean and responsive UI.
+6. **Mock API:** JSON Server is used to mock API data, making it easy to test and develop without a backend.
+7. **Axios Integration:** Axios is used for making HTTP requests to fetch and manipulate data.
 
 ## **Getting Started**
 To get started with the FoodieDelight project, follow the steps below.
